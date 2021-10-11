@@ -1,0 +1,5 @@
+Estamos com um problme de fluxo, acho que os problemas sãos multiplos e não localizados
+mas estou já a muito tempo nesse projeto e estou perdendo a mão. O correto era continuar
+mexendo mas sei que isso não é bom nem para o projeto nem pra mim. Preciso parar e retomar
+Então fica aqui que o problema é percorrer o projeto e concertar a falta de dados que está ocorrenrio
+por enquanto

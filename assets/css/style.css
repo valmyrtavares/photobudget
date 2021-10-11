@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* INDEX */
+.content h1, p{
+    text-align: center;
+    margin: 10px !important;
+}
+.main_title{
+    color:#B8975D;
+    font: 50px monospace;
+}
+
+.event_type_content{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+.event_type_content a{
+    padding: 4px;
+    text-decoration: none;
+    font: 25px monospace;
+}
+/* WEDDING */
+
+.content{
+    width:90%;
+    max-width: 900px;
+    margin:10px auto 40px auto;
+    font: 18px arial;    
+}
+.content legend{
+    font-size:30px;
+    color:rgb(37, 153, 8);
+    background:aquamarine
+}
+.content input{
+    margin: 7px auto;
+    width: 90%;
+    height:21px;
+}
+
+.initial_wedding_section{
+    background:rgb(231, 228, 228);
+    padding:7px;
+    display:flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.location_wedding_section{
+    background:rgb(231, 228, 228);
+    padding:7px;
+    display:flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.location_wedding_section .check{
+    display:flex;
+    align-items: center;
+    margin:5px auto;
+}
+.location_wedding_section .check label{
+   width: 80%;
+    margin:5px auto;
+}
+.location_wedding_section .check input{
+    width: 30px;
+ }
+
+ .details_wedding_section{
+  background:rgb(231, 228, 228);
+    padding:7px;
+    display:flex;
+    flex-direction: column;
+    margin: 20px auto;
+ }
+ .details_wedding_section input, select{
+    margin: 7px auto;
+    width: 90%;
+    height:25px;
+ }
+ .plus_msg_budget{
+    text-align: center;
+    color:#B8975D;
+    margin:15px auto;
+ }
+ .plus_budget_form{
+     max-width:850px;
+     margin:5px auto;
+ }
+ .check{
+     display: flex;
+     align-items:center;
+     justify-content: start;
+     padding: 10px 20px 5px 0px;
+     border:solid black 1px;
+     margin: 15px auto;
+     border-radius:4px;
+
+ }
+ .check input{
+     width: 20%;
+     margin: 3px 3%;
+ }
+
+ .content .custom_budget_button{
+     text-align: center;
+    font: 20px sans-serif;
+    padding: 15px 25px;
+    cursor:pointer;
+    height:auto;
+ }
+ 
+/* FOOTER */
+
+.footer{
+    width:100%;
+    padding: 15px ;
+    background:rgb(206, 203, 203);
+    text-align: center;
+    font: 20px sans-serif ;
+    margin-top: 100vh;
+    
+}
+/* HEADER*/
+
+.content img{
+    width: 60%;
+    margin: 10px 17%;
+}
+
+/* ORÇAMENTO MINI PRATA */
+.mini_prata{   
+    height:auto;
+    background:whitesmoke;
+    padding: 10px
+}
+
+.mini_prata h3{
+    color:#B8975D;
+    text-align: center;
+}
+.mini_prata ul{
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.mini_prata ul, li{
+    width:100%;
+}
+.total{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+/* BUDGET BRIEF */
+
+.budget_brief{
+    max-width: 600px;
+}
+.budget_brief .salute_customer{
+    margin-bottom: 43px;
+}
+
+.budget_brief .salute_customer h1{
+    font: 33px monospace;
+    text-align: left;
+    
+}
+.budget_brief .salute_customer p{
+    text-align: left;
+    font-size: 18px;
+}
+.budget_brief .budget h5{
+    font: 33px monospace;
+    text-align: center;
+}
+
+.budget_brief .title{
+    margin-bottom: 43px;
+}
+.budget_brief ul{
+    margin-bottom: 43px;
+}
+.budget_brief ul li{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.budget_brief ul p{
+    text-align: center;
+    font: 20px monospace;
+}
+.budget_brief h4{
+    text-align: center;
+    font: 33px monospace;
+    margin-bottom: 43px;
+    border-bottom: 1px solid black;
+}
+.budget_brief .personal_photograph{
+    margin-bottom: 43px;
+}
+
+.budget_brief .personal_photograph p{
+    text-align: left;
+}
+.budget_brief  .align_left_margin{
+    margin-bottom: 43px;
+}
+.budget_brief  .align_left_margin p{ 
+    text-align: left;
+}
+.budget_brief h3{
+    text-align: right;
+    margin-bottom: 43px;
+    font: 33px monospace;
+    border-bottom:solid black .5px;
+    padding:5px;
+}
+.testefaltando{
+    color:red;
+}
+
+/* NOT FOUND PAGE */
+.notfound_page{
+    border:solid black 1px;
+    width:500px;
+    padding:10px;
+    margin:10px auto;
+    background:red;
+}
+.notfound_page h1{
+    text-align: center;
+    font: 30px sans-serif;
+}
+
+@media(max-width:600px){
+   .content {        
+        font: 14px arial;
+    }
+    .mini_prata ul li{
+        margin-bottom: 5px;
+    }
+    .check input{
+        height:15px;
+    }
+}
